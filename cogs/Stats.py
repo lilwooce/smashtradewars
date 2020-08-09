@@ -74,7 +74,7 @@ class Stats(commands.Cog):
         else:
             await ctx.send("Why are you trying to start if you already have a character created?")
 
-    @commands.command()
+    @commands.command(aliases=["b"])
     async def buy(self, ctx, productToBuyName, amountToBuy=1,  member: discord.Member=None):
         getProductsClass = cogs.GetProductsClass.GetProducts()
         productList = getProductsClass.getProductList()
@@ -152,7 +152,7 @@ class Stats(commands.Cog):
             await ctx.send("You are travelling right now, please wait.")
             pass
 
-    @commands.command()
+    @commands.command(aliases=["s"])
     async def sell(self, ctx, productToSellName, amountToSell=1,  member: discord.Member=None):
         getProductsClass = cogs.GetProductsClass.GetProducts()
         productList = getProductsClass.getProductList()

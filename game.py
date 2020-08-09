@@ -3,9 +3,14 @@ import citiesClass
 import discord
 from discord.ext import commands
 import os
+import json
 
 client = commands.Bot(command_prefix = "$")
-botCreator = "Juhwooce#0939"
+
+def getToken():
+    with open (r"config.json", "r") as f:
+        data = json.load(f)
+        return data["token"]
 
 for cog in os.listdir(".\\cogs"):
     if cog.endswith(".py"):
@@ -19,6 +24,7 @@ for cog in os.listdir(".\\cogs"):
 @client.event
 async def on_ready():
     print("Ready!")
-    #cities.City.addProductsToCity()
 
-client.run('NzE5NjcwMjAyNjUxOTAxOTgz.Xt6zNw.OZa9NGh0ucFARjGhoN6KMxO8NFM')
+token = getToken()
+
+client.run(token)
