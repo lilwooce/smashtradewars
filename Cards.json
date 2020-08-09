@@ -1,0 +1,15 @@
+{
+    "SDCards": [{
+            "id": 0,
+            "name": "Sandisk 16GB MicroSD",
+            "capacity": 16,
+            "price": 100
+        },
+        {
+            "id": 1,
+            "name": "Sandisk 32GB MicroSD",
+            "capacity": 32,
+            "price": 300
+        }
+    ]
+}

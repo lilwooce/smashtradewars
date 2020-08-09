@@ -1,0 +1,32 @@
+{
+    "Cities": [
+        {
+            "id": 0,
+            "name": "Atlanta",
+            "shop": true,
+            "bank": true,
+            "economicState": 1,
+            "image": false,
+            "population": 498044,
+            "products": {
+                "0": 9800,
+                "1": 4000,
+                "2": 946
+            }
+        },
+        {
+            "id": 1,
+            "name": "Miami",
+            "shop": true,
+            "bank": true,
+            "economicState": 1,
+            "image": false,
+            "population": 470914,
+            "products": {
+                "0": 10000,
+                "1": 4985,
+                "2": 900
+            }
+        }
+    ]
+}

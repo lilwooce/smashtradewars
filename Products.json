@@ -1,0 +1,35 @@
+{
+    "Products": [{
+            "id": 0,
+            "name": "QPTag",
+            "minPrice": 1,
+            "currentPrice": 2.5,
+            "maxPrice": 5,
+            "amount": 10000,
+            "baseAmount": 10000,
+            "desc": "A Smash Tag from a random Quickplay Warrior"
+
+        },
+        {
+            "id": 1,
+            "name": "KasTag",
+            "minPrice": 1,
+            "currentPrice": 5,
+            "maxPrice": 10,
+            "amount": 5000,
+            "baseAmount": 5000,
+            "desc": "A Smash Tag from Kasra Jotaro Chieftan Khoubiari"
+        },
+        {
+            "id": 2,
+            "name": "ESTag",
+            "minPrice": 5,
+            "currentPrice": 10,
+            "maxPrice": 15,
+            "amount": 1000,
+            "baseAmount": 1000,
+            "desc": "A Smash Tag from a random Elite Smash player"
+        }
+
+    ]
+}
